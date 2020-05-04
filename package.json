@@ -21,7 +21,11 @@
     "typescript": "~3.7.2"
   },
   "dependencies": {
+    "@aws-cdk/aws-iam": "^1.36.1",
+    "@aws-cdk/aws-lambda": "^1.36.1",
+    "@aws-cdk/aws-s3": "^1.36.1",
     "@aws-cdk/core": "1.36.1",
+    "iam-policy-generator": "^1.1.0",
     "source-map-support": "^0.5.16"
   }
 }
