@@ -2,7 +2,6 @@ import * as cdk from '@aws-cdk/core';
 import {PolicyStatementFactory, Action } from 'iam-policy-generator';
 import * as lambda from '@aws-cdk/aws-lambda';
 import * as s3 from '@aws-cdk/aws-s3';
-//import * as iam from '@aws-cdk/aws-iam';
 import {Effect} from '@aws-cdk/aws-iam';
 
 export class CdkIamStack extends cdk.Stack {
